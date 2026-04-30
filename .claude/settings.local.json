@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npx tsc *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(git submodule *)",
+      "Bash(git -C /c/Users/rppar/dsn/web log --oneline -5)",
+      "Bash(git rm *)",
+      "Bash(git add *)"
     ]
   }
 }
